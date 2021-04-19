@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #f5f2f0;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1.5rem;
+}
+
+main {
+  margin: 1.5;
+}
+
+h1 {
+  font-family: Denk One, sans-serif;
+  color: #623b0c;
+}
+
+h2 {
+  font-family: Denk One, sans-serif;
+  color: #623b0c;
+}
+
+a {
+  font-family: Georgia, serif;
+  background-color: #623b0c;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 1.5em .7em;
+  border-radius: 8px;
+}
+
+p {
+  text-align: center;
+  margin: 0 0 1.5rem;
+  font-size: 1.4rem;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+ol > li {
+  border: 2px solid #623b0c;
+  background-color: #ede3db;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 + img {
+  max-width: 15em;
+  margin-bottom: 1.5rem;
+}
+
+ol ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+ul a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+ul li {
+  padding: 0 .25em;
+}
+
+ul li:first-child {
+  margin-right: auto;
+}
